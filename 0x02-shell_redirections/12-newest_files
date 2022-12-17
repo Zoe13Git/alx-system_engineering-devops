@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -At | tail
+ls --sort=time -1 | head
